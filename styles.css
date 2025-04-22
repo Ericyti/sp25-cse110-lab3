@@ -1,0 +1,6 @@
+/*CSS Variables & Fallbacks*/
+:root {
+    --primary-color: #FBE0C3;
+    --secondary-color: rgb(255, 187, 152);
+    --bg-fallback: white;
+}
