@@ -4,3 +4,11 @@
     --secondary-color: rgb(255, 187, 152);
     --bg-fallback: white;
 }
+
+/*Background Color*/
+body {
+    background: linear-gradient(
+      var(--primary-color),
+      var(--secondary-color)
+    );
+}
