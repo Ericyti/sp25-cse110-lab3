@@ -102,3 +102,16 @@ footer {
 form label {
     color: black;     
 }
+
+/*Makes it so when you hover over nav bar it changes the link to be blue*/
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*Makes it so that when you click on any button, specifically the form, it creates a purple effect visually*/
+button:active {
+    background-color: purple;
+    transform: scale(1);
+}
