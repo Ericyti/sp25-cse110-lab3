@@ -13,6 +13,13 @@ body {
     );
 }
 
+/*Makes header move along with the scroll*/
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 /*Color for navigation bar*/
 nav {
     background-color: color-mix(in srgb, #344648 70%, white 30%) / 50%;
@@ -27,6 +34,7 @@ nav a {
 /*Abosolute Unit padding for the footer*/
 footer {
     padding-top: 0.5in;
+    position: relative;
 }
 
 /*Center of image*/
