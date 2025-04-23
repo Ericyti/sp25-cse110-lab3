@@ -179,3 +179,26 @@ hr {
       margin: 0 auto;
     }
 }
+
+/*Class selector for notes summary*/
+.important {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/*Universal selector*/
+* {
+    box-sizing: border-box;
+}
+
+/*Attribute selector*/
+input[type="radio"] {
+    accent-color: green;
+}
+
+/*Selector list*/
+h2, h3 {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
