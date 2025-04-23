@@ -19,6 +19,7 @@ nav {
 }
 
 nav a {
+    display: inline;
     color: color(display-p3 0.50 0.56 0.70);
     text-decoration: none;
 }
@@ -87,6 +88,7 @@ footer {
     margin: 1rem;
 }
 
+/*Make the labels on the form black*/
 form label {
     color: black;     
 }
