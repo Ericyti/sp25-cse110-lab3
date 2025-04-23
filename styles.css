@@ -20,6 +20,7 @@ nav {
 
 nav a {
     color: color(display-p3 0.50 0.56 0.70);
+    text-decoration: none;
 }
 
 /*Abosolute Unit padding for the footer*/
@@ -64,6 +65,7 @@ footer {
 
 /*Using short hand and long hand padding for unfinished and finished business*/
 #New_business {
+    text-align: center;
     padding-top: 0px;
     padding-right: 20px;
     padding-bottom: 5px;
@@ -71,6 +73,7 @@ footer {
 }
   
 #Unfinished_business {
+    text-align: center;
     padding: 5px 20px 5px 20px;
 }
 
@@ -82,4 +85,8 @@ footer {
     border-radius: 12px;
     padding: 1rem;
     margin: 1rem;
+}
+
+form label {
+    color: black;     
 }
