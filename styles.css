@@ -48,3 +48,38 @@ footer {
 #Form {
     margin-top: 40px;
 }
+
+/*Creates margin for orderd list agenda*/
+#Agenda ol {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+/*Creates margin for unordered list attendance*/
+#Attendance ul {
+    margin: 20px 10px 20px 20px;
+}
+
+/*Using short hand and long hand padding for unfinished and finished business*/
+#New_business {
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+  
+#Unfinished_business {
+    padding: 5px 20px 5px 20px;
+}
+
+/*Creates a bordered box around Miscellaneous*/
+#Miscellaneous {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 12px;
+    padding: 1rem;
+    margin: 1rem;
+}
