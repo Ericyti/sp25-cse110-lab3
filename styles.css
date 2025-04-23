@@ -202,3 +202,44 @@ h2, h3 {
     font-weight: 400;
     font-style: normal;
 }
+
+/*Descendant Combinator*/
+section p {
+    font-size: 1rem;
+}
+
+/*Child Combinator*/
+form > label {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*General Sibling Combinator*/
+h3 ~ p {
+    color: darkgreen;
+}
+
+/*Adjacent Sibling Combinator*/
+h3 + video {
+    border: none;
+}
+
+/*Combining Two Selectors*/
+input[type="text"].necessary {
+    border: 2px solid red;
+}
+
+/*Has selector*/
+section:has(form) {
+    background-color: var(--secondary-color);
+}
+
+/*Nested Selectors*/
+#Notes {
+    summary {
+      &:hover {
+        color: blue;
+      }
+    }
+}
