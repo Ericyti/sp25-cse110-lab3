@@ -67,6 +67,9 @@ footer {
     margin-right: 10px;
     margin-bottom: 20px;
     margin-left: 20px;
+    display: grid;                          
+    grid-template-columns: repeat(5, 1fr);   
+    grid-gap: 1rem;
 }
 
 /*Creates margin for unordered list attendance*/
@@ -114,4 +117,16 @@ nav a:hover {
 button:active {
     background-color: purple;
     transform: scale(1);
+}
+
+hr {
+    border: none;
+    height: 0.5px;
+    background-color: black;
+}
+
+#Notes p{
+    display: flex;
+    flex-direction: row;           
+    flex-wrap: wrap;
 }
