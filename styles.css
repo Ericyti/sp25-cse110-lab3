@@ -39,6 +39,8 @@ footer {
 
 /*Centers video recording and audio recording to the middle and text*/
 #Video-Audio {
+    height: auto;
+    min-width: 50%;
     justify-content: center;   
     align-items: flex-start;
     gap: 2rem;                 
