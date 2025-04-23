@@ -13,6 +13,7 @@ body {
     );
 }
 
+/*Color for navigation bar*/
 nav {
     background-color: color-mix(in srgb, #344648 70%, white 30%) / 50%;
 }
@@ -20,4 +21,30 @@ nav {
 nav a {
     color: color(display-p3 0.50 0.56 0.70);
 }
-  
+
+/*Abosolute Unit padding for the footer*/
+footer {
+    padding-top: 0.5in;
+}
+
+/*Center of image*/
+#image img {
+    display: block;       
+    width: 80%;            /*relative unit*/
+    max-width: 850px;      /*absolute unit*/
+    margin: 2rem auto;     /*relative unit*/
+}
+
+/*Centers video recording and audio recording to the middle and text*/
+#Video-Audio {
+    justify-content: center;   
+    align-items: flex-start;
+    gap: 2rem;                 
+    flex-wrap: wrap;
+    text-align: center;         
+}
+
+/*Adds a margin for the form from the top to act as a buffer for sections*/
+#Form {
+    margin-top: 40px;
+}
