@@ -34,7 +34,7 @@ header {
 
 /*Color for navigation bar*/
 nav {
-    background-color: color-mix(in srgb, #344648 70%, white 30%) / 50%;
+    background-color: color-mix(in srgb, #FBE0C3 95%, white 5%);
 }
 
 nav a {
