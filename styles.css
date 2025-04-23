@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 /*CSS Variables & Fallbacks*/
 :root {
     --primary-color: #FBE0C3;
@@ -11,6 +13,16 @@ body {
       var(--primary-color), 
       var(--secondary-color)
     );
+    font-family: "Nova Flat", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Font for title*/
+h1 {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*Makes header move along with the scroll*/
@@ -29,6 +41,9 @@ nav a {
     display: inline;
     color: color(display-p3 0.50 0.56 0.70);
     text-decoration: none;
+    font-family: "Nova Flat", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*Abosolute Unit padding for the footer*/
