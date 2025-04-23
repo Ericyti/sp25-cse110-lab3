@@ -119,14 +119,48 @@ button:active {
     transform: scale(1);
 }
 
+/*Makes header row bold*/
 hr {
     border: none;
     height: 0.5px;
     background-color: black;
 }
 
+/*Flexbox for notes paragraph*/
 #Notes p{
     display: flex;
     flex-direction: row;           
     flex-wrap: wrap;
+}
+
+/*Responsiveness*/
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 16px;
+      padding: 1rem;
+    }
+  
+    #Attendance ul {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    #Agenda ol {
+      grid-template-columns: 1fr; 
+    }
+  
+    #Video-Audio {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    #image img {
+      width: 100%;       
+    }
+  
+    form {
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+    }
 }
