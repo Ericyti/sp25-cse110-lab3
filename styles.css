@@ -2,13 +2,22 @@
 :root {
     --primary-color: #FBE0C3;
     --secondary-color: rgb(255, 187, 152);
-    --bg-fallback: white;
+    --bg-fallback: hsl(0, 0%, 100%);
 }
 
 /*Background Color*/
 body {
     background: linear-gradient(
-      var(--primary-color),
+      var(--primary-color), 
       var(--secondary-color)
     );
 }
+
+nav {
+    background-color: color-mix(in srgb, #344648 70%, white 30%) / 50%;
+}
+
+nav a {
+    color: color(display-p3 0.50 0.56 0.70);
+}
+  
