@@ -33,9 +33,14 @@ header {
 }
 
 /*Color for navigation bar*/
+nav {
+    background-color: color-mix(in srgb, #FBE0C3 95%, #FFFFFF 5%);
+}
+
 nav a {
     display: inline;
     color: rgb(128, 143, 179);
+    color: color(display-p3 0.50 0.56 0.70);
     text-decoration: none;
     font-family: "Nova Flat", system-ui;
     font-weight: 400;
